@@ -1,0 +1,68 @@
+[
+	{
+		"title": "Product Type",
+		"type": "checkbox",
+		"items": [
+			{
+				"name": "Furniture (1439)",
+				"value": "/products"
+			},
+			{
+				"name": "Workspaces (302)",
+				"value": "/products/t-shirts"
+			},
+			{
+				"name": "Kitchen (110)",
+				"value": "/products/hoodies"
+			},
+			{
+				"name": "Bathroom (382)",
+				"value": "/products/sweatshirts"
+			}
+		]
+	},
+	{
+		"title": "Tags",
+		"type": "checkbox",
+		"items": [
+			{
+				"name": "Official store 👑",
+				"value": "/products"
+			},
+			{
+				"name": "Recommended ✅",
+				"value": "/products/t-shirts"
+			},
+			{
+				"name": "Top products 📌",
+				"value": "/products/hoodies"
+			},
+			{
+				"name": "Trending 🔥",
+				"value": "/products/sweatshirts"
+			}
+		]
+	},
+	{
+		"title": "Product Type",
+		"type": "radio",
+		"items": [
+			{
+				"name": "Tsh 10,000 - Tsh 40,000",
+				"value": "small"
+			},
+			{
+				"name": "Tsh 50,000 - Tsh 100,000",
+				"value": "mid"
+			},
+			{
+				"name": "Tsh 200,000 - Tsh 400,000",
+				"value": "large"
+			},
+			{
+				"name": "Tsh 1,000,000 - ",
+				"value": "extra-large"
+			}
+		]
+	}
+]
