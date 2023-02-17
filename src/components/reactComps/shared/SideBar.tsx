@@ -4,7 +4,7 @@ import sideBar from "../../../data/sideBar.json";
 const SideBar: React.FC = () => {
 	const [priceRange, setPriceRange] = useState("small");
 	return (
-		<div className="bg-primary px-8 py-2 w-64 divide-y">
+		<div className="bg-primary px-8 py-2 w-64 divide-y min-h-screen">
 			{sideBar.map((item, index) => (
 				<div key={index} className="space-y-3 py-4">
 					<h2 className="font-semibold text-black text-lg">

@@ -1,0 +1,40 @@
+[
+	{
+		"name": "Home",
+		"link": "/",
+		"multiple": false
+	},
+	{
+		"name": "Products",
+		"link": "/products",
+		"multiple": true,
+		"items": [
+			{
+				"name": "Furniture",
+				"link": "/products?category=furniture"
+			},
+			{
+				"name": "Workspace",
+				"link": "/products?category=workspace"
+			},
+			{
+				"name": "Kitchen",
+				"link": "/products?category=kitchen"
+			},
+			{
+				"name": "Bathroon",
+				"link": "/products?category=bathroom"
+			}
+		]
+	},
+	{
+		"name": "Promo",
+		"link": "/promo",
+		"multiple": false
+	},
+	{
+		"name": "Contact Us",
+		"link": "/contact-us",
+		"multiple": false
+	}
+]
